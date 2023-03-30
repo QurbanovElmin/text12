@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: dimgray;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  margin: 10px;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+nav .menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  nav ul {
+    display: none;
+  }
+  nav .menu-icon {
+    display: block;
+  }
+}
+footer .section1 {
+  background-image: url("/assets/foto/bg-masthead.jpg");
+  height: 600px;
+}
+footer .section1 div {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .section1 div h1 {
+  margin-top: 100px;
+}
+footer .section1 div h1 div {
+  font-size: 70px;
+  align-items: center;
+  color: white;
+}
+footer .section1 div hr {
+  width: 120px;
+  height: 4px;
+  background-color: orangered;
+  margin-top: 20px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+footer .section1 div p {
+  font-size: 25px;
+  color: white;
+}
+footer .section1 div button {
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 20px;
+  border: none;
+  background-color: orangered;
+  color: white;
+}
+footer .section2 .book {
+  background-color: orangered;
+  height: 500px;
+}
+footer .section2 div {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .section2 div h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 80px;
+}
+footer .section2 div hr {
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  margin-top: 20px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+footer .section2 div p {
+  color: white;
+  font-size: 20px;
+}
+footer .section2 div button {
+  font-size: 20px;
+  border-radius: 40px;
+  padding: 20px;
+  margin-top: 15px;
+  border: none;
+}
+footer .section3 .book1 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .section3 .book1 h1 {
+  margin-top: 50px;
+}
+footer .section3 .book1 hr {
+  width: 60px;
+  height: 4px;
+  background-color: orangered;
+  margin-top: 20px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+footer .book2 {
+  display: flex;
+  justify-content: space-around;
+}
+footer .book2 h1 {
+  text-align: center;
+  font-weight: lighter;
+}
+footer .book2 p {
+  text-align: center;
+  color: darkgrey;
+  opacity: 0, 6;
+}
+footer .book2 .text {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(238, 94, 42);
+}
+footer .section4 .parent {
+  margin-top: 50px;
+}
+footer .section4 .parent .box {
+  display: grid;
+  gap: 0px;
+  grid-template-columns: auto auto auto;
+}
+footer .section4 .parent .box .box1 {
+  display: grid;
+  gap: 0px;
+}
+footer .section4 .parent .box img {
+  width: 480px;
+  height: 200px;
+}
+footer .section5 .box2 {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 300px;
+  background-color: rgb(39, 36, 36);
+}
+footer .section5 .box2 h1 {
+  color: white;
+  font-size: 30px;
+}
+footer .section5 .box2 button {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  font-weight: bold;
+  border: none;
+}
+footer .section6 .box3 {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .section6 .box3 h1 {
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+footer .section6 .box3 hr {
+  width: 60px;
+  height: 3px;
+  background-color: orangered;
+  margin-top: 20px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+footer .section6 .box3 p {
+  font-size: 20px;
+  color: dimgray;
+  opacity: 0, 9;
+}
+footer .section6 .box3 input {
+  width: 400px;
+  height: 50px;
+}
+footer .section6 .box3 .box4 {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+}
+footer .section6 .box3 .box5 {
+  font-size: large;
+}
+footer .section6 strong {
+  font-size: 50px;
+  margin: 10px;
+}
+footer .section7 .container {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 249, 250);
+  width: 100vw;
+  height: 100px;
+}
+footer .section7 .container p {
+  color: rgb(156, 169, 185);
+}
+
+@media screen and (max-width: 750px) {
+  .section1 {
+    text-align: center;
+  }
+  .section1 div {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 414px) {
+  .section1 {
+    text-align: center;
+  }
+  .section1 div {
+    text-align: center;
+  }
+}/*# sourceMappingURL=main.css.map */
